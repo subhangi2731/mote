@@ -91,18 +91,48 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-6. Install all the dependencies
+6. Install Poetry usig pip package manager
 
-The dependencies of this project can be found in `requirements.txt` and are installed with setuptools:
-
-```
-python3 setup.py install
-```
-
-7. Run the project
+The dependencies of this project can be found in `pyproject.toml` and are installed with poetry:
 
 ```
-start-mote-server -p 9696 -4
+pip install poetry
+```
+
+7. Navigate to the project directory
+
+```
+cd mote
+```
+
+8. Install the defined dependencies from lock file using Poetry
+
+```
+poetry install 
+```
+
+9. Create a package in source as well as wheel format using Poetry
+
+```
+poetry build
+```
+
+10. Navigate to the dist folder
+
+```
+cd dist
+```
+
+11.  Navigate to mote-0.7.0
+
+```
+cd mote-0.7.0
+```
+
+12. Run mote server
+
+```
+mote
 ```
 
 The project is served on http://localhost:9696/
@@ -110,7 +140,7 @@ The project is served on http://localhost:9696/
 For any help with this format please run
 
 ```
-start-mote-server --help
+mote --help
 ```
 
 # Contributing
