@@ -645,7 +645,7 @@ client = ["requests (>=2.21.0)", "websocket-client (>=0.54.0)"]
 
 [[package]]
 name = "python-socketio"
-version = "5.5.2"
+version = "5.7.0"
 description = "Socket.IO server and client for Python"
 category = "main"
 optional = false
@@ -1306,8 +1306,8 @@ python-engineio = [
     {file = "python_engineio-4.3.1-py3-none-any.whl", hash = "sha256:85986067cb9f7695347954d4e03491f7d45152c5428c07109a9707e04e8942cb"},
 ]
 python-socketio = [
-    {file = "python-socketio-5.5.2.tar.gz", hash = "sha256:6213f7dfbb87e554472d11151f96bae9059854aa88e4a1e0fa6e97cca1c3fcf4"},
-    {file = "python_socketio-5.5.2-py3-none-any.whl", hash = "sha256:5a1b173a4c3471bed363c502a93b36a02e2a29847645c5557237b3359d49caf0"},
+    {file = "python-socketio-5.7.0.tar.gz", hash = "sha256:82e3c45baa51f2180f176e5e1c4232a4452f7545a3fe3156d093fa7e5890e816"},
+    {file = "python_socketio-5.7.0-py3-none-any.whl", hash = "sha256:874eeba29129618b30189ecb277e2d5e646c39e50b1a997289c0473ee6c1f5c8"},
 ]
 pytz = [
     {file = "pytz-2021.3-py2.py3-none-any.whl", hash = "sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c"},
